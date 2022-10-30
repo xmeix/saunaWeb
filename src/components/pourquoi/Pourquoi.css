@@ -1,0 +1,42 @@
+.pourquoi {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15%;
+  background-color: lightskyblue ;
+}
+.pourquoi h1 {
+  margin-bottom: 1em;
+  margin-top: 0.5em;
+  letter-spacing: 3px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 100;
+  color: white;
+}
+
+.pourquoi p {
+  font-size: 93%;
+}
+.pourquoi p span {
+  font-weight: 900;
+  color: rgb(2, 57, 238);
+}
+.pourquoi p .span2 {
+  background-color: white;
+  padding: 0.5em;
+  text-align: center;
+  font-weight: 900;
+  margin-top: 1em;
+  border-radius: 10px;
+}
+
+
+@media (max-width: 840px) {
+  .pourquoi {
+    padding-top: 30%;
+    padding-bottom: 30%;
+    
+  }}

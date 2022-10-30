@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Pangolin&display=swap");
+
+.contact {
+  display: flex;
+ 
+}
+
+.contact .first {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  flex: 0.7;
+  border: solid 1px #e4540636;
+  padding: 1.5em;
+}
+
+.contact .first .intro {
+  text-align: justify;
+  font-size: 14px;
+  font-weight: bold;
+}
+.contact .first .Qui h1 {
+  color: #e45406;
+  font-family: "Pangolin", cursive;
+}
+
+.contact .second h1 {
+  color: white;
+  font-family: "Pangolin", cursive;
+  background-color: rgba(255, 68, 0, 0.329);
+  text-align: center;
+  padding:.5em;
+}
+
+.contact .first .Qui .figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid 1px #e4540636;
+  border-radius: 5px;
+  padding: 1em;
+}
+.contact .first .Qui .figure .Bio {
+  padding: 1em 2em 1em 2em;
+  text-align: justify;
+}
+.contact .second .confiance {
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: rgba(255, 68, 0, 0.329);
+
+  border: solid 1px #e4540636;
+}
+.contact .second .confiance img {
+  height: 45px;
+  max-width: 200px;
+  margin: 0.5em;
+}
+.contact .second {
+  padding-top: 0;
+  margin-top: 0;
+  flex: 1;
+  padding: 1.5em;
+  border: solid 1px #e4540636;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.contact .second .whynot {
+  text-align: justify;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.contact .second .contactform form {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+}
+.contact .second .contactform {
+  border: solid 1px #e4540636;
+}
+.contact .second .contactform form input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  margin: 0.5em;
+}
+
+.contact .second .contactform form .btn {
+  margin: 1em;
+  text-align: center;
+  color: orangered;
+  border: 2px solid rgba(255, 68, 0, 0.671);
+  padding: 0.5em;
+  border-radius: 15px;
+  width: 50%;
+  text-decoration: none;
+  font-weight: 900;
+  align-self: flex-end;
+}
+.contact .second .contactform form .btn:hover {
+  background-color: rgba(255, 68, 0, 0.671);
+  color: white;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+
+.contact .second .social {
+  background-color: black;
+  color: white;
+  padding: 1em;
+}

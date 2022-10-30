@@ -1,0 +1,111 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+}
+
+.header .logo {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  font-weight: larger;
+  color: #e45406;
+}
+
+.header .logo .logoImage {
+  width: 40px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.navbar .special {
+  color: white !important;
+  background-color: #f79864a4;
+
+  border-radius: 5px;
+}
+.header .closeBtn {
+  border: none;
+  background-color: transparent;
+  display: none;
+}
+.header .closeBtn:hover {
+  cursor: pointer;
+}
+
+.header .closeBtn .close {
+  height: 30px;
+  width: 30px;
+  color: #37474f;
+}
+
+.navbar {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  padding: 0.5em;
+}
+.navbar a:hover  {
+  background-color: #f79764;
+  transition: 0.3s ease-in; 
+  color: white !important;
+  border-radius: 4px;
+}
+.navbar a {
+  margin-left: 0.2em;
+  padding: 0.5em 0.8em 0.5em 0.8em;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+   justify-content: space-around;
+}
+@media (max-width: 840px) {
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8em 2em 0.8em 2em;
+  }
+  .header .closeBtn {
+    display: initial;
+  }
+  .navbar {
+    background-color: white;
+    position: absolute;
+    top: 3.8em;
+    right: 0;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60vh;
+    width: 35%;
+    font-weight: 600;
+    border-bottom-left-radius: 10px;
+    z-index: 999;
+  }
+  .display {
+    display: none;
+  }
+  .navbar a {
+    color: black;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+
+  }
+
+  .navbar .special{ 
+    background-color:transparent  ;
+    color: #000 !important;
+  }
+  .navbar a:hover ,  .navbar .special a:hover {
+    color: white;
+    font-weight: 900;
+    letter-spacing: 1px;
+    background-color: rgba(219, 99, 30, 0.842);
+    transition: 0.5s ease-in;
+    border-radius: 10px;
+  }
+}
